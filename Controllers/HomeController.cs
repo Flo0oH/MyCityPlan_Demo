@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyCityPlan_Demo.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,17 +9,7 @@ namespace MyCityPlan_Demo.Controllers
 {
     public class HomeController : Controller
     {
-        
-
-        // 
-        // GET: /HelloWorld/
-
-        public string Index()
-        {
-            return "This is my default action...";
-        }
-
-        // 
+      
         // GET: /HelloWorld/Welcome/ 
 
         public string Welcome()

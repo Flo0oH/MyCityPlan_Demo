@@ -9,14 +9,14 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: burlywood;
+  color: red;
   /*background-image:  url(mycity.jpg)*/
 }
 
 .btn-primary {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: black;
+  border-color: white;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -61,12 +61,12 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 100px; /* Vertically center the text there */
 }
