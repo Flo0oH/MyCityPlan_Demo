@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Pages\Users\mycity.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.18" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.18" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.18" />
@@ -22,10 +26,6 @@
 
   <ItemGroup>
     <Folder Include="Pages\Shared\Picture\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\css\mycity.jpg" />
   </ItemGroup>
 
 </Project>
