@@ -4,22 +4,22 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
+<h1>There are @Model.Count().ToString() Events for your City planned</h1>
+<form><button class"btn btn-primary"> + Create new Events</button></form>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Event planning</a>
 </p>
-<table class="table">
+<table class="table" border="0" width="800" cellspacing="5" cellpadding="5">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                <button class"btn btn-primary">@Html.DisplayNameFor(model => model.Name)</button>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+                <button class"btn btn-primary">@Html.DisplayNameFor(model => model.Email)</button>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Property_1)
+                <button class"btn btn-primary">@Html.DisplayNameFor(model => model.Property_1)</button>
             </th>
             <th></th>
         </tr>
@@ -37,9 +37,7 @@
                 @Html.DisplayFor(modelItem => item.Property_1)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <p><form><button class"btn btn-primary">Edit</button><button class"btn btn-primary">Details</button><button class"btn btn-primary">Delete</button></form></p>
             </td>
         </tr>
 }

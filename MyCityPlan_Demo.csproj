@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <Folder Include="Pages\Shared\Picture\" />
+    <Folder Include="Views\Hello\" />
     <Folder Include="wwwroot\css\NewFolder1\" />
     <Folder Include="wwwroot\css\NewFolder\" />
   </ItemGroup>
