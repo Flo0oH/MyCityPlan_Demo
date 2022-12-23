@@ -14,6 +14,7 @@ namespace MyCityPlan_Demo
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            CreateBrain mybrain = new CreateBrain();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
