@@ -23,8 +23,7 @@ namespace MyCityPlan_Demo
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            MyMatrix mym = new MyMatrix();
-            mym.start();
+   
         }
 
         public IConfiguration Configuration { get; }
